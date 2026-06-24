@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundColor": "#1A2530"
-      }
+      },
+      "package": "com.abhishekraj2025.azsupermarket"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +33,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b55380d2-7afa-4f8e-b8cb-7fcbf6935774"
+      }
     }
   }
 }
