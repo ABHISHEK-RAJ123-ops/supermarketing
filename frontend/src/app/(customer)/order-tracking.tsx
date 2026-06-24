@@ -7,7 +7,7 @@ import { io, Socket } from 'socket.io-client';
 import { API_URL } from '../../context/AuthContext';
 import { COLORS, SIZES, SHADOWS } from '../../constants/theme';
 
-const SOCKET_URL = Platform.OS === 'android' ? 'http://10.0.2.2:5000' : 'http://localhost:5000';
+const SOCKET_URL = 'https://supermarketing-backend.onrender.com';
 
 const STATUS_STEPS = ['Placed', 'Preparing', 'Out For Delivery', 'Delivered'];
 

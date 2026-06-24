@@ -6,8 +6,7 @@ import axios from 'axios';
 // Replace with your local machine's IP address if testing on a physical device,
 // or use localhost for iOS simulator / 10.0.2.2 for Android emulator.
 const getBaseUrl = () => {
-  if (Platform.OS === 'android') return 'http://10.0.2.2:5000';
-  return 'http://localhost:5000';
+  return 'https://supermarketing-backend.onrender.com';
 };
 export const API_URL = `${getBaseUrl()}/api`; 
 
